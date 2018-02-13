@@ -41,7 +41,6 @@ p {
 
 header, section, article, div {
   box-sizing: border-box;
-
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -87,33 +86,32 @@ aside {
 }
 
 .colorbox-top {
-  height: 8vmin;
-  width: 8vmin;
-  align-content:right;
+  height: 6%;
+  width: 6%;
   border-top-width: 1px;
   border-right-width: 1px;
   border-left-width: 1px;
   border-bottom-width: 1px;
-  margin-top: 2vmin;
+  margin-top: 2%;
   margin-right: 15%;
   margin-left: 40%;
-  margin-bottom: 2vmin;
+  margin-bottom: 1%;
   border-color: black;
 }
 
 .colorbox-bottom {
-  min-height: 1vmin;
-  align-content:right;
+  min-height: 30px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-left-width: 1px;
   border-bottom-width: 1px;
-  margin-top: 0;
+  margin-top: 5%;
   margin-right: 15%;
   margin-left: 44%;
-  margin-bottom: 2vmin;
+  margin-bottom: 5%;
   border-color: black;
 }
+
 .colorit_white {
   background-color: white;
 }
@@ -180,7 +178,6 @@ aside {
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: white;
-
 }
 
 .header-powner {
@@ -272,6 +269,7 @@ aside {
   margin-left: 0;
   margin-right: 55px;
 }
+
 .hero-photo {
   height: auto;
   width: 100%;
@@ -297,12 +295,14 @@ aside {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 .gFW {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
 /* Article 1 - row 1 data */
 .gA1r1 {
   grid-column: 2;
@@ -311,6 +311,7 @@ aside {
   grid-row-end: 4;
   background-color: white;
 }
+
 /* Article 2 - row 1 data */
 .gA2r1 {
   grid-column: 3;
@@ -319,6 +320,7 @@ aside {
   grid-row-end: 4;
   background-color: white;
 }
+
 /* Article 2 - row 1 data */
 .gA3r1 {
   grid-column: 4;
@@ -327,6 +329,7 @@ aside {
   grid-row-end: 4;
   background-color: white;
 }
+
 .gA1r2 {
   grid-column: 2;
   grid-column-end: 3;
@@ -334,6 +337,7 @@ aside {
   grid-row-end: 5;
   background-color: white;
 }
+
 .gA2r2 {
   grid-column: 3;
   grid-column-end: 4;
@@ -341,6 +345,7 @@ aside {
   grid-row-end: 5;
   background-color: white;
 }
+
 .gA3r2 {
   grid-column: 4;
   grid-column-end: 5;
@@ -348,6 +353,7 @@ aside {
   grid-row-end: 5;
   background-color: white;
 }
+
 /* Article 1 - row 3 data */
 .gA1r3 {
   grid-column: 2;
@@ -356,6 +362,7 @@ aside {
   grid-row-end: 6;
   background-color: white;
 }
+
 .gA2r3 {
   grid-column: 3;
   grid-column-end: 4;
@@ -363,6 +370,7 @@ aside {
   grid-row-end: 6;
   background-color: white;
 }
+
 .gA3r3 {
   grid-column: 4;
   grid-column-end: 5;
@@ -370,6 +378,7 @@ aside {
   grid-row-end: 6;
   background-color: white;
 }
+
 .gA1r4 {
   grid-column: 2;
   grid-column-end: 3;
@@ -377,6 +386,7 @@ aside {
   grid-row-end: 7;
   background-color: white;
 }
+
 .gA2r4 {
   grid-column: 3;
   grid-column-end: 4;
@@ -384,6 +394,7 @@ aside {
   grid-row-end: 7;
   background-color: white;
 }
+
 .gA3r4 {
   grid-column: 4;
   grid-column-end: 5;
@@ -391,6 +402,7 @@ aside {
   grid-row-end: 7;
   background-color: white;
 }
+
 /* Article 1 - row 5 data */
 .gA1r5 {
   grid-column: 2;
@@ -398,12 +410,14 @@ aside {
   grid-row-start: 7;
   grid-row-end: 8;
 }
+
 .gA2r5 {
   grid-column: 3;
   grid-column-end: 4;
   grid-row-start: 7;
   grid-row-end: 8;
 }
+
 .gA3r5 {
   grid-column: 4;
   grid-column-end: 5;
@@ -460,9 +474,6 @@ aside {
   word-break: break-word;
 
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
   hyphens: auto;
 }
 
