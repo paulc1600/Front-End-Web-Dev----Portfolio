@@ -41,7 +41,6 @@ p {
 
 header, section, article, div {
   box-sizing: border-box;
-
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -72,6 +71,20 @@ main {
 
 /*
  *
+ * Display Controls for Aside and Footer
+ *
+ */
+
+.disp-aside {
+  display: block;  
+}
+
+.disp-footer {
+  display: none;
+}
+
+/*
+ *
  * Left Aside Panel -- No Purpose Colored Boxes
  *
  */
@@ -87,33 +100,32 @@ aside {
 }
 
 .colorbox-top {
-  height: 8vmin;
-  width: 8vmin;
-  align-content:right;
+  height: 3.2%;
+  width: 3.2%;
   border-top-width: 1px;
   border-right-width: 1px;
   border-left-width: 1px;
   border-bottom-width: 1px;
-  margin-top: 2vmin;
+  margin-top: 2%;
   margin-right: 20%;
   margin-left: 40%;
-  margin-bottom: 2vmin;
+  margin-bottom: 1%;
   border-color: black;
 }
 
 .colorbox-bottom {
-  min-height: 1vmin;
-  align-content:right;
+  min-height: 20px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-left-width: 1px;
   border-bottom-width: 1px;
-  margin-top: 0;
+  margin-top: 5%;
   margin-right: 26%;
-  margin-left: 29%;
-  margin-bottom: 2vmin;
+  margin-left: 28%;
+  margin-bottom: 5%;
   border-color: black;
 }
+
 .colorit_white {
   background-color: white;
 }
@@ -180,7 +192,6 @@ aside {
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: white;
-
 }
 
 .header-powner {
@@ -274,6 +285,7 @@ aside {
   margin-left: 0;
   margin-right: 55px;
 }
+
 .hero-photo {
   height: 40vmin;
   width: 100%;
@@ -298,12 +310,14 @@ aside {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 .gFW {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
 /* Article 1 - row 1 data */
 .gA1r1 {
   grid-column: 2;
@@ -312,6 +326,7 @@ aside {
   grid-row-end: 4;
   background-color: white;
 }
+
 .gA2r1 {
   grid-column: 3;
   grid-column-end: 4;
@@ -319,6 +334,7 @@ aside {
   grid-row-end: 4;
   background-color: white;
 }
+
 /* Article 3 - row 1 data */
 /* Now under article 1    */
 .gA3r1 {
@@ -328,6 +344,7 @@ aside {
   grid-row-end: 9;
   background-color: white;
 }
+
 /* Article 1 - row 2 data */
 .gA1r2 {
   grid-column: 2;
@@ -336,6 +353,7 @@ aside {
   grid-row-end: 5;
   background-color: white;
 }
+
 .gA2r2 {
   grid-column: 3;
   grid-column-end: 4;
@@ -343,6 +361,7 @@ aside {
   grid-row-end: 5;
   background-color: white;
 }
+
 /* Article 3 - row 2 data */
 /* Now under article 1    */
 .gA3r2 {
@@ -352,6 +371,7 @@ aside {
   grid-row-end: 10;
   background-color: white;
 }
+
 /* Article 1 - row 3 data */
 .gA1r3 {
   grid-column: 2;
@@ -360,6 +380,7 @@ aside {
   grid-row-end: 6;
   background-color: white;
 }
+
 .gA2r3 {
   grid-column: 3;
   grid-column-end: 4;
@@ -367,6 +388,7 @@ aside {
   grid-row-end: 6;
   background-color: white;
 }
+
 /* Article 3 - row 3data */
 /* Now under article 1    */
 .gA3r3 {
@@ -376,6 +398,7 @@ aside {
   grid-row-end: 11;
   background-color: white;
 }
+
 /* Article 1 - row 4 data */
 .gA1r4 {
   grid-column: 2;
@@ -384,6 +407,7 @@ aside {
   grid-row-end: 7;
   background-color: white;
 }
+
 .gA2r4 {
   grid-column: 3;
   grid-column-end: 4;
@@ -391,6 +415,7 @@ aside {
   grid-row-end: 7;
   background-color: white;
 }
+
 /* Article 3 - row 4 data */
 /* Now under article 1    */
 .gA3r4 {
@@ -400,6 +425,7 @@ aside {
   grid-row-end: 12;
   background-color: white;
 }
+
 /* Article 1 - row 5 data */
 .gA1r5 {
   grid-column: 2;
@@ -407,12 +433,14 @@ aside {
   grid-row-start: 7;
   grid-row-end: 8;
 }
+
 .gA2r5 {
   grid-column: 3;
   grid-column-end: 4;
   grid-row-start: 7;
   grid-row-end: 8;
 }
+
 /* Article 3 - row 5 data */
 /* Now under article 1    */
 .gA3r5 {
@@ -471,9 +499,6 @@ aside {
   word-break: break-word;
 
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
   hyphens: auto;
 }
 

@@ -39,9 +39,8 @@ p {
 	line-height: 20px;
 }
 
-header, section, article, div {
+header, section, div {
   box-sizing: border-box;
-
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -70,6 +69,21 @@ main {
   color: black;
 }
 
+
+/*
+ *
+ * Display Controls for Aside and Footer
+ *
+ */
+
+.disp-aside {
+  display: none;
+}
+
+.disp-footer {
+  display: block;
+}
+
 /*
  *
  * Left Aside Panel -- No Purpose Colored Boxes
@@ -86,57 +100,6 @@ aside {
   height: 100%;
 }
 
-.colorbox-top {
-  height: 6vmin;
-  width: 6vmin;
-  align-content:right;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-left-width: 1px;
-  border-bottom-width: 1px;
-  margin-top: 4vmin;
-  margin-right: 20%;
-  margin-left: 35%;
-  margin-bottom: 10vmin;
-  border-color: black;
-}
-
-.colorbox-bottom {
-  min-height: 8vmin;
-  align-content:right;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-left-width: 1px;
-  border-bottom-width: 1px;
-  margin-top: 1vmin;
-  margin-right: 30%;
-  margin-left: 10%;
-  margin-bottom: 2vmin;
-  border-color: black;
-}
-.colorit_white {
-  background-color: white;
-}
-
-.colorbox-photo {
-  height: 5vmin;
-  width: 5vmin;
-}
-
-.font-colorbox {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 12px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 14px;
-  vertical-align: top;
-  text-align: left;
-  transform-origin: right top 0;
-  transform: rotate(90deg);
-  color: #212121;
-}
-
 /*
  *
  * Header Format -- Logo & Portfolio Owner @ Top of Web Page
@@ -146,7 +109,7 @@ aside {
 .header-grid {
   display: grid;
   grid-gap: 4px;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 100%;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -168,8 +131,8 @@ aside {
 .header-logo {
   vertical-align: top;
   max-height: 60px;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 20px;
@@ -181,15 +144,14 @@ aside {
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: white;
-
 }
 
 .header-powner {
   vertical-align: top;
   height: 34px;
   max-width: 100%;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
   margin-top: 20px;
@@ -207,8 +169,8 @@ aside {
 .header-pdesc {
   height: 24px;
   max-width: 100%;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 0;
@@ -221,8 +183,8 @@ aside {
 .header-ruler {
   background-color: black;
   height: 2px;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
   margin-top: 0;
@@ -266,13 +228,14 @@ aside {
 .photo-grid {
   display: grid;
   grid-gap: 4px;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 100%;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 20px;
 }
+
 .hero-photo {
   height: 40vmin;
   width: 100%;
@@ -292,122 +255,138 @@ aside {
 }
 
 .gHero {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
   margin-bottom: 26px;
 }
+
 .gFW {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
+
 /* Article 1 - row 1 data */
 .gA1r1 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 7;
   grid-row-end: 8;
   background-color: white;
 }
+
 /* Article 2 - row 1 data */
 .gA2r1 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 13;
   grid-row-end: 14;
   background-color: white;
 }
+
 .gA3r1 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 18;
   grid-row-end: 19;
   background-color: white;
 }
+
 .gA1r2 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 8;
   grid-row-end: 9;
   background-color: white;
 }
+
 .gA2r2 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 14;
   grid-row-end: 15;
   background-color: white;
 }
+
 .gA3r2 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 19;
   grid-row-end: 20;
   background-color: white;
 }
+
 /* Article 1 - row 3 data */
 .gA1r3 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 9;
   grid-row-end: 10;
   background-color: white;
 }
+
 .gA2r3 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 15;
   grid-row-end: 16;
   background-color: white;
 }
+
 .gA3r3 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 20;
   grid-row-end: 21;
   background-color: white;
 }
+
 .gA1r4 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 10;
   grid-row-end: 11;
   background-color: white;
 }
+
 .gA2r4 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 16;
   grid-row-end: 17;
   background-color: white;
 }
+
 .gA3r4 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 21;
   grid-row-end: 22;
   background-color: white;
 }
+
 /* Article 1 - row 5 data */
 .gA1r5 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 12;
   grid-row-end: 13;
 }
+
 .gA2r5 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 17;
   grid-row-end: 18;
   margin-bottom: 66px;
 }
+
 .gA3r5 {
-  grid-column: 2;
-  grid-column-end: 3;
+  grid-column: 1;
+  grid-column-end: 2;
   grid-row-start: 23;
   grid-row-end: 24;
 }
@@ -449,6 +428,91 @@ aside {
   color: #2d3c49;
 }
 
+/*
+ *
+ * Footer Format -- Move 3 color boxes here for small viewports
+ *
+ */
+
+.footer-grid {
+  display: block;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.footer-ruler {
+  display: block;
+  background-color: black;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 8px;
+  border-top-width: 0;
+  border-right-width: 5px;
+  border-bottom-width: 0;
+  border-left-width: 5px;
+  border-color: white;
+}
+
+.footer-content {
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: 10% 23% 10% 23% 10% 24%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.colorbox-top {
+  display:inline-block;
+  height: 3.2%;
+  width: 3.2%;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.colorbox-bottom {
+  display: inline-block;
+  min-height: 30px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.colorit_white {
+  background-color: white;
+}
+
+.colorbox-photo {
+  height: 7vmin;
+  width: 7vmin;
+}
+
+.font-colorbox {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 14px;
+  vertical-align:middle;
+  text-align: left;
+  color: #212121;
+}
+
 /* This code is by CHRIS COYIER and appears on site:                  */
 /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/  */
 /* Not part of code to be evaluated. Not written by me. --- Paul   */
@@ -461,9 +525,6 @@ aside {
   word-break: break-word;
 
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
   hyphens: auto;
 }
 
