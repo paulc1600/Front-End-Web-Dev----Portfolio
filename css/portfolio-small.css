@@ -39,7 +39,7 @@ p {
 	line-height: 20px;
 }
 
-header, section, div {
+header, section, article, div {
   box-sizing: border-box;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
