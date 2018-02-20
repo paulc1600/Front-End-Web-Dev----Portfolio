@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
@@ -22,7 +21,6 @@ h1 {
 }
 
 h3 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -31,7 +29,6 @@ h3 {
 }
 
 p {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -41,7 +38,6 @@ p {
 
 header, section, article, div {
   box-sizing: border-box;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -122,7 +118,6 @@ aside {
 }
 
 .font-colorbox {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 12px;
 	font-style: normal;
 	font-variant: normal;
@@ -234,7 +229,6 @@ aside {
 }
 
 .font-powner {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 30px;
   line-height: 30px;
   vertical-align: top;
@@ -243,7 +237,6 @@ aside {
 }
 
 .font-pdesc {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -427,7 +420,6 @@ aside {
 }
 
 .font-section-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
@@ -439,7 +431,6 @@ aside {
 }
 
 .font-proj-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant:normal;
@@ -452,7 +443,6 @@ aside {
 }
 
 .font-proj-link {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 11px;
 	font-style: normal;
 	font-variant:normal;
