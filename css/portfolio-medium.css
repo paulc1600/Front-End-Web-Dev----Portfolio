@@ -345,7 +345,7 @@ aside {
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* Article 3 - row 2 data */
@@ -355,7 +355,7 @@ aside {
   grid-column-end: 3;
   grid-row-start: 9;
   grid-row-end: 10;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* Article 1 - row 3 data */
@@ -364,7 +364,7 @@ aside {
   grid-column-end: 3;
   grid-row-start: 5;
   grid-row-end: 6;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .gA2r3 {
@@ -372,7 +372,7 @@ aside {
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 6;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* Article 3 - row 3data */
@@ -382,7 +382,7 @@ aside {
   grid-column-end: 3;
   grid-row-start: 10;
   grid-row-end: 11;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* Article 1 - row 4 data */
@@ -391,7 +391,7 @@ aside {
   grid-column-end: 3;
   grid-row-start: 6;
   grid-row-end: 7;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .gA2r4 {
@@ -399,7 +399,7 @@ aside {
   grid-column-end: 4;
   grid-row-start: 6;
   grid-row-end: 7;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* Article 3 - row 4 data */
@@ -409,7 +409,7 @@ aside {
   grid-column-end: 3;
   grid-row-start: 11;
   grid-row-end: 12;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* Article 1 - row 5 data */
@@ -437,11 +437,11 @@ aside {
 }
 
 .font-section-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
 	font-size: 20px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+	/* font-style: normal;
+	/* font-variant: normal;
+	/* font-weight: 500; */
 	line-height: 22px;
   vertical-align: top;
   text-align: left;
@@ -449,59 +449,26 @@ aside {
 }
 
 .font-proj-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
 	font-size: 22px;
-	font-style: normal;
-	font-variant:normal;
-	font-weight: 500;
+  /* font-style: normal;
+	/* font-variant: normal;
+	/* font-weight: 500; */
 	line-height: 24px;
-  vertical-align: top;
-  text-transform: uppercase;
+  /* vertical-align: top;        */
+  /* text-transform: uppercase;  */
   text-align:center;
   color: #2d3c49;
 }
 
 .font-proj-link {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 11px;
-	font-style: normal;
-	font-variant:normal;
-	font-weight: 500;
-	line-height: 12px;
-  vertical-align: top;
+  /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
+	/* font-size: 11px;
+	/* font-style: normal;
+	/* font-variant:normal;
+	/* font-weight: 500;
+	/* line-height: 12px;
+  /* vertical-align: top;  */
   text-align:center;
-  color: #2d3c49;
-}
-
-/* This code is by CHRIS COYIER and appears on site:                  */
-/* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/  */
-/* Not part of code to be evaluated. Not written by me. --- Paul   */
-.dont-break-out {
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  hyphens: auto;
-}
-
-/* This code designed and written by Thierry Koblentz and presented on A List Apart in 2009 */
-/* See also  https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php      */
-/* Not part of code to be evaluated. Not written by me. --- Paul                            */
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  /* color: #2d3c49; */
 }
