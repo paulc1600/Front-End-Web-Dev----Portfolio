@@ -274,8 +274,10 @@ aside {
 }
 
 .one-photo {
-  width: auto;
-  height: 35vmin;
+  /* width: auto;     */
+  /* height: 35vmin;  */
+  max-width: 100%;
+  height: auto;
   margin-top: 15px;
 }
 
