@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -13,7 +14,6 @@ body {
 }
 
 h1 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
@@ -22,7 +22,6 @@ h1 {
 }
 
 h3 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -31,7 +30,6 @@ h3 {
 }
 
 p {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -39,9 +37,11 @@ p {
 	line-height: 20px;
 }
 
-header, section, div {
+header,
+section,
+article,
+div {
   box-sizing: border-box;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -122,7 +122,6 @@ aside {
 }
 
 .font-colorbox {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 12px;
 	font-style: normal;
 	font-variant: normal;
@@ -234,7 +233,6 @@ aside {
 }
 
 .font-powner {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 30px;
   line-height: 30px;
   vertical-align: top;
@@ -243,7 +241,6 @@ aside {
 }
 
 .font-pdesc {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -272,13 +269,46 @@ aside {
 }
 
 .hero-photo {
-  height: 40vmin;
+  height: auto;
   width: 100%;
 }
 
+/*
+ * Hero Image Graphic File Selection
+ * <picture> DID NOT WORK IN BROWSER
+ */
+.disp-small {display:block;}
+.disp-med {display: none;}
+.disp-large {display: none;}
+.disp-huge {display: none;}
+
+@media screen and (min-width:500px) {
+  .disp-small {display: none;}
+  .disp-med {display:block;}
+  .disp-large {display: none;}
+  .disp-huge {display: none;}
+}
+@media screen and (min-width:900px) {
+  .disp-small {display: none;}
+  .disp-med {display: none;}
+  .disp-large {display: block;}
+  .disp-huge {display:none;}
+}
+@media screen and (min-width:1100px) {
+  .disp-small {display: none;}
+  .disp-med {display: none;}
+  .disp-large {display: none;}
+  .disp-huge {
+    display:block;
+    padding-left: 5px;
+  }
+}
+
 .one-photo {
-  width: auto;
-  height: 35vmin;
+  /* width: auto;     */
+  /* height: 35vmin;  */
+  max-width: 100%;
+  height: auto;
   margin-top: 15px;
 }
 
@@ -427,7 +457,6 @@ aside {
 }
 
 .font-section-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
@@ -439,7 +468,6 @@ aside {
 }
 
 .font-proj-title {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant:normal;
@@ -452,7 +480,6 @@ aside {
 }
 
 .font-proj-link {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 11px;
 	font-style: normal;
 	font-variant:normal;
