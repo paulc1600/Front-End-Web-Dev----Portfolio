@@ -269,8 +269,39 @@ aside {
 }
 
 .hero-photo {
-  height: 40vmin;
+  height: auto;
   width: 100%;
+}
+
+/*
+ * Hero Image Graphic File Selection
+ * <picture> DID NOT WORK IN BROWSER
+ */
+.disp-small {display:block;}
+.disp-med {display: none;}
+.disp-large {display: none;}
+.disp-huge {display: none;}
+
+@media screen and (min-width:500px) {
+  .disp-small {display: none;}
+  .disp-med {display:block;}
+  .disp-large {display: none;}
+  .disp-huge {display: none;}
+}
+@media screen and (min-width:900px) {
+  .disp-small {display: none;}
+  .disp-med {display: none;}
+  .disp-large {display: block;}
+  .disp-huge {display:none;}
+}
+@media screen and (min-width:1100px) {
+  .disp-small {display: none;}
+  .disp-med {display: none;}
+  .disp-large {display: none;}
+  .disp-huge {
+    display:block;
+    padding-left: 5px;
+  }
 }
 
 .one-photo {

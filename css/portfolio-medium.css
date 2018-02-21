@@ -272,10 +272,10 @@ aside {
   margin-right: 55px;
 }
 
-.hero-photo {
-  height: 40vmin;
-  /* width: 100%; */
-}
+/* .hero-photo {
+  max-width: 100%;
+  height: auto;
+} */
 
 .one-photo {
   /* width: auto;     */
@@ -439,11 +439,11 @@ aside {
 
 .font-section-title {
   /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
-	font-size: 20px;
+	font-size: 28px;
 	/* font-style: normal;
 	/* font-variant: normal;
 	/* font-weight: 500; */
-	line-height: 22px;
+	line-height: 30px;
   vertical-align: top;
   text-align: left;
   color: #7d97ad;

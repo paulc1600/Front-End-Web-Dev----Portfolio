@@ -270,10 +270,10 @@ aside {
   margin-right: 55px;
 }
 
-.hero-photo {
+/* .hero-photo {
+  max-width: 100%;
   height: auto;
-  /* width: 100%; */
-}
+} */
 
 .one-photo {
   /* width: auto;     */
@@ -290,8 +290,6 @@ aside {
 }
 
 .gHero {
-  max-height: 40vmin;
-  overflow: hidden;       /* Clip Photo Ultra High Viewport */
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
