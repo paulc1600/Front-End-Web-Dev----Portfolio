@@ -30,6 +30,8 @@ Files:  index.html                   -- portfolio main markup code
  PPC | 02/10/2018 | Original code.
  PPC | 02/11/2018 | Create stylesheet for iPad and small viewport.
  PPC | 02/12/2018 | Pre-submit code clean-up. All HTML and CSS errors removed.
+ PPC | 02/20/2018 | Review suggestions and issues resolved as per comments.
+ PPC | 02/21/2018 | Code clean up. Second Submit of project code.
 ---------------------------------------------------------------------
 
 TO RUN CODE:
