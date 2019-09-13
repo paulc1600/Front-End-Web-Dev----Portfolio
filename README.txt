@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------
-Udacity Course: Full Stack Web Developer
-Proj #2: Portfolio Website
+Front End Web Development
+Portfolio Website
 Purpose: Web markup code and stylesheets for responsive portfolio
            website. Includes images required for first 3 articles.
 
@@ -21,9 +21,7 @@ Files:  index.html                   -- portfolio main markup code
   DISCLAIMER: Code which I did not write is clearly marked in the
              css directory. js directory contains no code.
 
-      Please do not alter this code unless you are an Udacity
-      instructor.
-
+      Please do not alter this code without contacting me first.
       Many thanks. -- Paul
 
 ---------------------------------------------------------------------
